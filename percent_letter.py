@@ -8,6 +8,7 @@ except:
 
 if not '.' in user_num:
     print(user_string)
+
 else:
     ratio = round(len(user_string)*our_num)
     print(user_string[ratio])
